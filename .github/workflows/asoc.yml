@@ -46,7 +46,8 @@ jobs:
           ASOC_SECRET: ${{ secrets.ASOC_API_SECRET }}
           TestVar: abcd
           ASOC_SCAN_NAME: Automated Scan from Github Actions
-          ASOC_APPID: ${{ vars.ASOC_APPID }}
+          ASOC_APPID: 3df40c36-8097-4af4-9179-f5d645712a6a
+          # ASOC_APPID: ${{ vars.ASOC_APPID }}
 
         run: |
           $baseURL = 'https://cloud.appscan.com/api/V2'
